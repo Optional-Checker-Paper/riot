@@ -15,6 +15,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+plugins {
+    // Checker Framework pluggable type-checking
+    id 'org.checkerframework' version '0.6.35'
+}
+
 config {
     info {
         description = 'RIOT'
@@ -142,7 +147,17 @@ subprojects { p ->
             }
         }
     }
+    apply plugin: 'org.checkerframework'
+    checkerFramework {
+        checkers = [
+                'org.checkerframework.checker.optional.OptionalChecker',
+        ]
+        extraJavacArgs = [
+          '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno'
+        ]
+    }
 }
+
 
 boolean hasTestsAt(File testDir) {
     testDir.exists() && testDir.listFiles()?.size()
