@@ -26,6 +26,7 @@ public class FakerImportOptions {
 	@Parameters(arity = "0..*", description = "SpEL expressions in the form field1=\"exp\" field2=\"exp\"...", paramLabel = "SPEL")
 	private Map<String, String> fields = new LinkedHashMap<>();
 	@Option(names = "--infer", description = "Introspect given RediSearch index to infer Faker fields.", paramLabel = "<name>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<String> redisearchIndex = Optional.empty();
 	@Option(names = "--locale", description = "Faker locale (default: ${DEFAULT-VALUE}).", paramLabel = "<tag>")
 	private Locale locale = DEFAULT_LOCALE;
@@ -61,6 +62,7 @@ public class FakerImportOptions {
 		return redisearchIndex;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setRedisearchIndex(Optional<String> redisearchIndex) {
 		this.redisearchIndex = redisearchIndex;
 	}

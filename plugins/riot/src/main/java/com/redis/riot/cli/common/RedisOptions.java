@@ -15,6 +15,7 @@ public class RedisOptions {
 	public static final SslVerifyMode DEFAULT_SSL_VERIFY_MODE = SslVerifyMode.FULL;
 
 	@Option(names = { "-h", "--hostname" }, description = "Server hostname.", paramLabel = "<host>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<String> host = Optional.empty();
 
 	@Option(names = { "-p", "--port" }, description = "Server port.", paramLabel = "<port>")
@@ -22,6 +23,7 @@ public class RedisOptions {
 
 	@Option(names = { "-s",
 			"--socket" }, description = "Server socket (overrides hostname and port).", paramLabel = "<socket>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<String> socket = Optional.empty();
 
 	@Option(names = "--user", description = "ACL style 'AUTH username pass'. Needs password.", paramLabel = "<name>")
@@ -35,6 +37,7 @@ public class RedisOptions {
 	private RedisURI uri;
 
 	@Option(names = "--timeout", description = "Redis command timeout.", paramLabel = "<sec>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<Long> timeout = Optional.empty();
 
 	@Option(names = { "-n", "--db" }, description = "Database number.", paramLabel = "<db>")
@@ -50,12 +53,14 @@ public class RedisOptions {
 	private SslVerifyMode tlsVerifyMode = DEFAULT_SSL_VERIFY_MODE;
 
 	@Option(names = "--ks", description = "Path to keystore.", paramLabel = "<file>", hidden = true)
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<File> keystore = Optional.empty();
 
 	@Option(names = "--ks-pwd", arity = "0..1", interactive = true, description = "Keystore password.", paramLabel = "<pwd>", hidden = true)
 	private char[] keystorePassword;
 
 	@Option(names = "--ts", description = "Path to truststore.", paramLabel = "<file>", hidden = true)
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<File> truststore = Optional.empty();
 
 	@Option(names = "--ts-pwd", arity = "0..1", interactive = true, description = "Truststore password.", paramLabel = "<pwd>", hidden = true)
@@ -65,12 +70,14 @@ public class RedisOptions {
 	private File keyCert;
 
 	@Option(names = "--key", description = "PKCS#8 private key file to authenticate (PEM).", paramLabel = "<file>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<File> key = Optional.empty();
 
 	@Option(names = "--key-pwd", arity = "0..1", interactive = true, description = "Private key password.", paramLabel = "<pwd>")
 	private char[] keyPassword;
 
 	@Option(names = "--cacert", description = "X.509 CA certificate file to verify with.", paramLabel = "<file>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<File> trustedCerts = Optional.empty();
 
 	@Option(names = "--metrics", description = "Show latency metrics.")
@@ -83,6 +90,7 @@ public class RedisOptions {
 	private boolean noAutoReconnect;
 
 	@Option(names = "--client", description = "Client name used to connect to Redis.", paramLabel = "<name>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<String> clientName = Optional.empty();
 
 	public boolean isCluster() {
@@ -97,6 +105,7 @@ public class RedisOptions {
 		setHost(Optional.of(host));
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setHost(Optional<String> host) {
 		this.host = host;
 	}
@@ -161,6 +170,7 @@ public class RedisOptions {
 		return socket;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setSocket(Optional<String> socket) {
 		this.socket = socket;
 	}
@@ -169,6 +179,7 @@ public class RedisOptions {
 		return timeout;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setTimeout(Optional<Long> timeout) {
 		this.timeout = timeout;
 	}
@@ -177,6 +188,7 @@ public class RedisOptions {
 		return key;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setKey(Optional<File> key) {
 		this.key = key;
 	}
@@ -201,6 +213,7 @@ public class RedisOptions {
 		return keystore;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setKeystore(Optional<File> keystore) {
 		this.keystore = keystore;
 	}
@@ -213,6 +226,7 @@ public class RedisOptions {
 		return truststore;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setTruststore(Optional<File> truststore) {
 		this.truststore = truststore;
 	}
@@ -225,6 +239,7 @@ public class RedisOptions {
 		return trustedCerts;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setTrustedCerts(Optional<File> trustedCerts) {
 		this.trustedCerts = trustedCerts;
 	}
@@ -245,6 +260,7 @@ public class RedisOptions {
 		return clientName;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setClientName(Optional<String> clientName) {
 		this.clientName = clientName;
 	}

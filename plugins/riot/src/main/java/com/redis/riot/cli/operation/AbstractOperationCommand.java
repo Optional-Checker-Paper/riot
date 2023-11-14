@@ -33,6 +33,7 @@ public abstract class AbstractOperationCommand<O> implements OperationCommand<O>
 		return extractor.andThen(new ObjectToNumberConverter<>(Double.class));
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	protected Function<Map<String, Object>, String> stringFieldExtractor(Optional<String> field) {
 		if (field.isPresent()) {
 			return stringFieldExtractor(field.get());
@@ -53,6 +54,7 @@ public abstract class AbstractOperationCommand<O> implements OperationCommand<O>
 		return fieldExtractorFactory().field(field).andThen(new ObjectToNumberConverter<>(targetType));
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	protected <T extends Number> Function<Map<String, Object>, T> numberExtractor(Optional<String> field,
 			Class<T> targetType, T defaultValue) {
 		if (field.isPresent()) {
@@ -67,6 +69,7 @@ public abstract class AbstractOperationCommand<O> implements OperationCommand<O>
 		return fieldExtractorFactory().field(field, defaultValue).andThen(new ObjectToNumberConverter<>(targetType));
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	protected Function<Map<String, Object>, String> idMaker(Optional<String> prefix, String... fields) {
 		return new IdConverterBuilder().separator(commandOptions.getKeySeparator())
 				.remove(commandOptions.isRemoveFields()).prefix(prefix).fields(fields).build();

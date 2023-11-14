@@ -13,6 +13,7 @@ public class TsAddOptions {
 	public static final DuplicatePolicy DEFAULT_DUPLICATE_POLICY = DuplicatePolicy.LAST;
 
 	@Option(names = "--timestamp", description = "Name of the field to use for timestamps. If unset, uses auto-timestamping.", paramLabel = "<field>")
+	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<String> timestampField = Optional.empty();
 	@Option(names = "--value", required = true, description = "Name of the field to use for values.", paramLabel = "<field>")
 	private String valueField;
@@ -25,6 +26,7 @@ public class TsAddOptions {
 		return timestampField;
 	}
 
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public void setTimestampField(Optional<String> timestampField) {
 		this.timestampField = timestampField;
 	}
