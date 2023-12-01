@@ -15,6 +15,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// plugins {
+//   id "com.github.spotbugs" version "5.2.5"
+// }
+
 config {
     info {
         description = 'RIOT'
@@ -69,6 +73,7 @@ config {
 }
 
 allprojects {
+    apply plugin: "com.github.spotbugs"
     repositories {
         mavenLocal()
         gradlePluginPortal()
@@ -81,6 +86,13 @@ allprojects {
     tasks.withType(JavaCompile) {
         options.encoding = 'UTF-8'
     }
+    spotbugs {
+     ignoreFailures = true
+     toolVersion = '4.8.2'
+     effort = 'default'
+     reportLevel = 'default'
+     reportsDir = file("$buildDir/spotbugs")
+  }
 }
 
 subprojects { subproj ->
@@ -97,7 +109,7 @@ subprojects { subproj ->
 	    }
 
 	    dependencies {
-	        compileOnly group: 'com.google.code.findbugs', name: 'jsr305', version: jsr305Version
+	        // compileOnly group: 'com.google.code.findbugs', name: 'jsr305', version: jsr305Version
 	        testImplementation group: 'commons-io', name: 'commons-io', version: commonsIoVersion
 	        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
             testImplementation group: 'org.testcontainers', name: 'junit-jupiter', version: testcontainersVersion
