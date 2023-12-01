@@ -15,6 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 config {
     info {
         description = 'RIOT'
@@ -69,6 +70,7 @@ config {
 }
 
 allprojects {
+    apply plugin: "net.ltgt.errorprone"
     repositories {
         mavenLocal()
         gradlePluginPortal()
@@ -78,8 +80,18 @@ allprojects {
         enabled = false
     }
 
+    dependencies {
+      errorprone("com.google.errorprone:error_prone_core:2.23.0")
+    }
+
     tasks.withType(JavaCompile) {
         options.encoding = 'UTF-8'
+        options.errorprone.disableWarningsInGeneratedCode = true
+        options.errorprone.disableAllChecks = true
+        options.errorprone.enable("NullOptional", "NullableOptional",
+          "OptionalMapToOptional", "OptionalNotPresent", "OptionalEquality",
+          "OptionalMapUnusedValue", "OptionalOfRedundantMethod", "UnnecessaryOptionalGet",
+        )
     }
 }
 
