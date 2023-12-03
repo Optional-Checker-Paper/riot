@@ -11,6 +11,7 @@ public class IdConverterBuilder {
 	public static final String DEFAULT_SEPARATOR = ":";
 
 	private String separator = DEFAULT_SEPARATOR;
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<String> prefix = Optional.empty();
 	private final FieldExtractorFactory extractorFactory = FieldExtractorFactory.builder().nullCheck(true).build();
 	private final List<String> fields = new ArrayList<>();
@@ -33,6 +34,7 @@ public class IdConverterBuilder {
 		return prefix(Optional.of(prefix));
 	}
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public IdConverterBuilder prefix(Optional<String> prefix) {
 		this.prefix = prefix;
 		return this;
@@ -43,6 +45,7 @@ public class IdConverterBuilder {
 		return this;
 	}
 
+	@SuppressWarnings("OptionalIsPresent") // intellij-suppression-optional-is-present
 	public Function<Map<String, Object>, String> build() {
 		if (fields.isEmpty()) {
 			if (prefix.isPresent()) {

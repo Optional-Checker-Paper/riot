@@ -18,6 +18,7 @@ import picocli.CommandLine.Option;
 public class JsonSetCommand extends AbstractKeyCommand {
 
 	@Option(names = "--path", description = "Path field.", paramLabel = "<field>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<String> path = Optional.empty();
 
 	private ObjectMapper mapper = new ObjectMapper();

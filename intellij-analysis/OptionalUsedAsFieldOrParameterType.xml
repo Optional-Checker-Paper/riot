@@ -1,0 +1,899 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java</file>
+  <line>14</line>
+  <module>riot.riot-core.main</module>
+  <package>com.redis.riot.core.convert</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.core.convert.IdConverterBuilder prefix" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'prefix'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java</file>
+  <line>36</line>
+  <module>riot.riot-core.main</module>
+  <package>com.redis.riot.core.convert</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.core.convert.IdConverterBuilder com.redis.riot.core.convert.IdConverterBuilder prefix(java.util.Optional&lt;java.lang.String&gt; prefix)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'prefix'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java</file>
+  <line>72</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.FileImport fileType" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;FileType&gt;&lt;/code&gt; used as type for field 'fileType'</description>
+  <highlighted_element>Optional&lt;FileType&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java</file>
+  <line>281</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.FileImport.Builder fileType" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;FileType&gt;&lt;/code&gt; used as type for field 'fileType'</description>
+  <highlighted_element>Optional&lt;FileType&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java</file>
+  <line>299</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.FileImport.Builder com.redis.riot.cli.FileImport.Builder fileType(java.util.Optional&lt;com.redis.riot.core.FileType&gt; type)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;FileType&gt;&lt;/code&gt; used as type for parameter 'type'</description>
+  <highlighted_element>Optional&lt;FileType&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java</file>
+  <line>29</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.FakerImportOptions redisearchIndex" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'redisearchIndex'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java</file>
+  <line>64</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.FakerImportOptions void setRedisearchIndex(java.util.Optional&lt;java.lang.String&gt; redisearchIndex)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'redisearchIndex'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java</file>
+  <line>41</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.GenerateOptions expiration" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;IntRange&gt;&lt;/code&gt; used as type for field 'expiration'</description>
+  <highlighted_element>Optional&lt;IntRange&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java</file>
+  <line>65</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.GenerateOptions timeseriesStartTime" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Instant&gt;&lt;/code&gt; used as type for field 'timeseriesStartTime'</description>
+  <highlighted_element>Optional&lt;Instant&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java</file>
+  <line>215</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.GenerateOptions void setTimeseriesStartTime(java.util.Optional&lt;java.time.Instant&gt; timeseriesStartTime)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Instant&gt;&lt;/code&gt; used as type for parameter 'timeseriesStartTime'</description>
+  <highlighted_element>Optional&lt;Instant&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java</file>
+  <line>223</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.GenerateOptions void setExpiration(java.util.Optional&lt;com.redis.spring.batch.common.IntRange&gt; expiration)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;IntRange&gt;&lt;/code&gt; used as type for parameter 'expiration'</description>
+  <highlighted_element>Optional&lt;IntRange&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>18</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions host" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'host'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>25</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions socket" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'socket'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>38</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions timeout" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Long&gt;&lt;/code&gt; used as type for field 'timeout'</description>
+  <highlighted_element>Optional&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>53</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions keystore" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for field 'keystore'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>59</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions truststore" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for field 'truststore'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>68</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions key" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for field 'key'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>74</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions trustedCerts" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for field 'trustedCerts'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>86</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisOptions clientName" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'clientName'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>100</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setHost(java.util.Optional&lt;java.lang.String&gt; host)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'host'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>164</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setSocket(java.util.Optional&lt;java.lang.String&gt; socket)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'socket'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>172</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setTimeout(java.util.Optional&lt;java.lang.Long&gt; timeout)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Long&gt;&lt;/code&gt; used as type for parameter 'timeout'</description>
+  <highlighted_element>Optional&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>180</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setKey(java.util.Optional&lt;java.io.File&gt; key)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for parameter 'key'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>204</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setKeystore(java.util.Optional&lt;java.io.File&gt; keystore)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for parameter 'keystore'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>216</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setTruststore(java.util.Optional&lt;java.io.File&gt; truststore)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for parameter 'truststore'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>228</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setTrustedCerts(java.util.Optional&lt;java.io.File&gt; trustedCerts)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for parameter 'trustedCerts'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java</file>
+  <line>248</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisOptions void setClientName(java.util.Optional&lt;java.lang.String&gt; clientName)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'clientName'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java</file>
+  <line>28</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisReaderOptions scanType" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'scanType'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java</file>
+  <line>43</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RedisReaderOptions readFrom" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ReadFromEnum&gt;&lt;/code&gt; used as type for field 'readFrom'</description>
+  <highlighted_element>Optional&lt;ReadFromEnum&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java</file>
+  <line>104</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisReaderOptions void setReadFrom(java.util.Optional&lt;com.redis.riot.cli.common.ReadFromEnum&gt; readFrom)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ReadFromEnum&gt;&lt;/code&gt; used as type for parameter 'readFrom'</description>
+  <highlighted_element>Optional&lt;ReadFromEnum&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java</file>
+  <line>160</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.RedisReaderOptions void setScanType(java.util.Optional&lt;java.lang.String&gt; type)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'type'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java</file>
+  <line>34</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.ReplicateOptions keyProcessor" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'keyProcessor'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java</file>
+  <line>52</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.ReplicateOptions targetReadFrom" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ReadFromEnum&gt;&lt;/code&gt; used as type for field 'targetReadFrom'</description>
+  <highlighted_element>Optional&lt;ReadFromEnum&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java</file>
+  <line>58</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.ReplicateOptions void setTargetReadFrom(java.util.Optional&lt;com.redis.riot.cli.common.ReadFromEnum&gt; readFrom)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ReadFromEnum&gt;&lt;/code&gt; used as type for parameter 'readFrom'</description>
+  <highlighted_element>Optional&lt;ReadFromEnum&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java</file>
+  <line>130</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.common.ReplicateOptions void setKeyProcessor(java.util.Optional&lt;java.lang.String&gt; keyProcessor)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'keyProcessor'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java</file>
+  <line>57</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.common</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.common.RiotStep progressStyle" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ProgressStyle&gt;&lt;/code&gt; used as type for field 'progressStyle'</description>
+  <highlighted_element>Optional&lt;ProgressStyle&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java</file>
+  <line>16</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.DumpOptions type" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;FileDumpType&gt;&lt;/code&gt; used as type for field 'type'</description>
+  <highlighted_element>Optional&lt;FileDumpType&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java</file>
+  <line>25</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.FlatFileOptions headerLine" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for field 'headerLine'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java</file>
+  <line>27</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.FlatFileOptions delimiter" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'delimiter'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java</file>
+  <line>147</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.FlatFileOptions.Builder headerLine" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for field 'headerLine'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java</file>
+  <line>148</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.FlatFileOptions.Builder delimiter" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'delimiter'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java</file>
+  <line>162</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.file.FlatFileOptions.Builder com.redis.riot.cli.file.FlatFileOptions.Builder headerLine(java.util.Optional&lt;java.lang.Integer&gt; lineIndex)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for parameter 'lineIndex'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java</file>
+  <line>186</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.file.FlatFileOptions.Builder com.redis.riot.cli.file.FlatFileOptions.Builder delimiter(java.util.Optional&lt;java.lang.String&gt; delimiter)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'delimiter'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java</file>
+  <line>24</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.GcsOptions keyFile" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for field 'keyFile'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java</file>
+  <line>26</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.GcsOptions projectId" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'projectId'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java</file>
+  <line>28</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.GcsOptions encodedKey" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'encodedKey'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java</file>
+  <line>20</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.S3Options accessKey" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'accessKey'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java</file>
+  <line>22</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.S3Options secretKey" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'secretKey'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java</file>
+  <line>24</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.file</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.file.S3Options region" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'region'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java</file>
+  <line>36</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.AbstractOperationCommand java.util.function.Function&lt;java.util.Map&lt;java.lang.String,java.lang.Object&gt;,java.lang.String&gt; stringFieldExtractor(java.util.Optional&lt;java.lang.String&gt; field)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'field'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>70</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java</file>
+  <line>56</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.AbstractOperationCommand java.util.function.Function&lt;java.util.Map&lt;java.lang.String,java.lang.Object&gt;,T&gt; numberExtractor(java.util.Optional&lt;java.lang.String&gt; field, java.lang.Class&lt;T&gt; targetType, T defaultValue)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'field'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>79</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java</file>
+  <line>70</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.AbstractOperationCommand java.util.function.Function&lt;java.util.Map&lt;java.lang.String,java.lang.Object&gt;,java.lang.String&gt; idMaker(java.util.Optional&lt;java.lang.String&gt; prefix, java.lang.String... fields)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'prefix'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java</file>
+  <line>10</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.CollectionOptions memberSpace" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'memberSpace'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java</file>
+  <line>28</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.CollectionOptions void setMemberSpace(java.util.Optional&lt;java.lang.String&gt; memberSpace)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'memberSpace'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java</file>
+  <line>12</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.ExpireOptions ttlField" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'ttlField'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java</file>
+  <line>21</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.ExpireOptions void setTtlField(java.util.Optional&lt;java.lang.String&gt; field)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'field'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java</file>
+  <line>21</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.JsonSetCommand path" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'path'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java</file>
+  <line>10</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.KeyOptions keyspace" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'keyspace'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java</file>
+  <line>27</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.KeyOptions void setKeyspace(java.util.Optional&lt;java.lang.String&gt; keyspace)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'keyspace'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java</file>
+  <line>15</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.SetOptions field" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'field'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java</file>
+  <line>16</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.SugaddOptions score" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'score'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java</file>
+  <line>22</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.SugaddOptions payload" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'payload'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java</file>
+  <line>39</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.SugaddOptions void setScore(java.util.Optional&lt;java.lang.String&gt; scoreField)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'scoreField'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java</file>
+  <line>55</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.SugaddOptions void setPayload(java.util.Optional&lt;java.lang.String&gt; payload)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'payload'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java</file>
+  <line>16</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.TsAddOptions timestampField" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'timestampField'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java</file>
+  <line>28</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.TsAddOptions void setTimestampField(java.util.Optional&lt;java.lang.String&gt; timestampField)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'timestampField'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java</file>
+  <line>15</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.XaddOptions maxlen" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Long&gt;&lt;/code&gt; used as type for field 'maxlen'</description>
+  <highlighted_element>Optional&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java</file>
+  <line>12</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="field" FQNAME="com.redis.riot.cli.operation.ZaddOptions score" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'score'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java</file>
+  <line>20</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli.operation</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.operation.ZaddOptions void setScore(java.util.Optional&lt;java.lang.String&gt; scoreField)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'scoreField'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>16</length>
+</problem>
+</problems>

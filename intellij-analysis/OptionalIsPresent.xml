@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java</file>
+  <line>55</line>
+  <module>riot.riot-core.main</module>
+  <package>com.redis.riot.core.convert</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.core.convert.IdConverterBuilder java.util.function.Function&lt;java.util.Map&lt;java.lang.String,java.lang.Object&gt;,java.lang.String&gt; build()" />
+  <problem_class id="OptionalIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non functional style 'Optional.isPresent()' usage</problem_class>
+  <description>Can be replaced with single expression in functional style</description>
+  <highlighted_element>prefix.isPresent()</highlighted_element>
+  <language>JAVA</language>
+  <offset>7</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java</file>
+  <line>231</line>
+  <module>riot.riot.main</module>
+  <package>com.redis.riot.cli</package>
+  <entry_point TYPE="method" FQNAME="com.redis.riot.cli.FileImport int headerIndex()" />
+  <problem_class id="OptionalIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non functional style 'Optional.isPresent()' usage</problem_class>
+  <description>Can be replaced with single expression in functional style</description>
+  <highlighted_element>headerLine.isPresent()</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>22</length>
+</problem>
+</problems>

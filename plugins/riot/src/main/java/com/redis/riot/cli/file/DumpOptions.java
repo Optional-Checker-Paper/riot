@@ -13,6 +13,7 @@ import picocli.CommandLine.Option;
 public class DumpOptions {
 
 	@Option(names = { "-t", "--filetype" }, description = "File type: ${COMPLETION-CANDIDATES}.", paramLabel = "<type>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	protected Optional<FileDumpType> type = Optional.empty();
 
 	public Optional<FileDumpType> getType() {

@@ -54,6 +54,7 @@ public class RiotStep<I, O> {
 	@SuppressWarnings("rawtypes")
 	private List<Class> skippableExceptions = new ArrayList<>(Arrays.asList(DEFAULT_SKIPPABLE_EXCEPTIONS));
 	private Consumer<String> logger = s -> log.log(RiotLevel.LIFECYCLE, s);
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<ProgressStyle> progressStyle = Optional.empty();
 
 	public RiotStep(StepBuilderFactory factory, ItemReader<I> reader, ItemWriter<O> writer) {

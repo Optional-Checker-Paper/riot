@@ -69,6 +69,7 @@ public class FileImport extends AbstractOperationImportCommand {
 	private FlatFileOptions flatFileOptions = new FlatFileOptions();
 
 	@Option(names = { "-t", "--filetype" }, description = "File type: ${COMPLETION-CANDIDATES}.", paramLabel = "<type>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<FileType> fileType = Optional.empty();
 
 	public FileImport() {
@@ -226,6 +227,7 @@ public class FileImport extends AbstractOperationImportCommand {
 				flatFileOptions.getContinuationString());
 	}
 
+	@SuppressWarnings("OptionalIsPresent") // intellij-suppression-optional-is-present
 	private int headerIndex() {
 		Optional<Integer> headerLine = flatFileOptions.getHeaderLine();
 		if (headerLine.isPresent()) {
@@ -278,6 +280,7 @@ public class FileImport extends AbstractOperationImportCommand {
 
 		private FlatFileOptions flatFileOptions = new FlatFileOptions();
 		private FileOptions fileOptions = new FileOptions();
+		@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 		private Optional<FileType> fileType = Optional.empty();
 
 		public Builder flatFileOptions(FlatFileOptions options) {
@@ -296,6 +299,7 @@ public class FileImport extends AbstractOperationImportCommand {
 			return fileType(Optional.of(type));
 		}
 
+		@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 		public Builder fileType(Optional<FileType> type) {
 			this.fileType = type;
 			return this;

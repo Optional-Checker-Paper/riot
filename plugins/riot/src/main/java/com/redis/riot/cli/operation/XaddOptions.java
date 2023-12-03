@@ -12,6 +12,7 @@ public class XaddOptions {
 	@Mixin
 	private FilteringOptions filteringOptions = new FilteringOptions();
 	@Option(names = "--maxlen", description = "Stream maxlen.", paramLabel = "<int>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<Long> maxlen = Optional.empty();
 	@Option(names = "--trim", description = "Stream efficient trimming ('~' flag).")
 	private boolean approximateTrimming = DEFAULT_APPROXIMATE_TRIMMING;

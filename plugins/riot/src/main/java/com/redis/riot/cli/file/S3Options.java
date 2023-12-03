@@ -17,10 +17,13 @@ import picocli.CommandLine.Option;
 public class S3Options {
 
 	@Option(names = "--s3-access", description = "Access key.", paramLabel = "<key>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<String> accessKey = Optional.empty();
 	@Option(names = "--s3-secret", arity = "0..1", interactive = true, description = "Secret key.", paramLabel = "<key>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<String> secretKey = Optional.empty();
 	@Option(names = "--s3-region", description = "AWS region.", paramLabel = "<name>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<String> region = Optional.empty();
 
 	public void setAccessKey(String accessKey) {

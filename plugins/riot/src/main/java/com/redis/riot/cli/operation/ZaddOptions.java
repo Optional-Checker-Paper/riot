@@ -9,6 +9,7 @@ public class ZaddOptions {
 	public static final double DEFAULT_SCORE = 1;
 
 	@Option(names = "--score", description = "Name of the field to use for scores.", paramLabel = "<field>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<String> score = Optional.empty();
 	@Option(names = "--score-default", description = "Score when field not present (default: ${DEFAULT-VALUE}).", paramLabel = "<num>")
 	private double defaultScore = DEFAULT_SCORE;
@@ -17,6 +18,7 @@ public class ZaddOptions {
 		return score;
 	}
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public void setScore(Optional<String> scoreField) {
 		this.score = scoreField;
 	}

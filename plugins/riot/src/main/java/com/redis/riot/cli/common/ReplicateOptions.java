@@ -31,6 +31,7 @@ public class ReplicateOptions {
 	private boolean noVerify;
 
 	@Option(names = "--key-process", description = "SpEL expression to transform each key.", paramLabel = "<exp>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<String> keyProcessor = Optional.empty();
 
 	@Option(names = "--ttl-tolerance", description = "Max TTL difference to use for dataset verification (default: ${DEFAULT-VALUE}).", paramLabel = "<ms>")
@@ -49,12 +50,14 @@ public class ReplicateOptions {
 	private int targetPoolMaxTotal = PoolOptions.DEFAULT_MAX_TOTAL;
 
 	@Option(names = "--target-read-from", description = "Which target Redis cluster nodes to read data from: ${COMPLETION-CANDIDATES}.", paramLabel = "<n>")
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<ReadFromEnum> targetReadFrom = Optional.empty();
 
 	public Optional<ReadFromEnum> getTargetReadFrom() {
 		return targetReadFrom;
 	}
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public void setTargetReadFrom(Optional<ReadFromEnum> readFrom) {
 		this.targetReadFrom = readFrom;
 	}
@@ -127,6 +130,7 @@ public class ReplicateOptions {
 		return keyProcessor;
 	}
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public void setKeyProcessor(Optional<String> keyProcessor) {
 		this.keyProcessor = keyProcessor;
 	}
