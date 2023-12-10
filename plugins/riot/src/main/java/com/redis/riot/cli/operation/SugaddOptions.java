@@ -13,14 +13,14 @@ public class SugaddOptions {
 	private String field;
 
 	@Option(names = "--score", description = "Name of the field to use for scores.", paramLabel = "<field>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<String> score = Optional.empty();
 
 	@Option(names = "--score-default", description = "Score when field not present (default: ${DEFAULT-VALUE}).", paramLabel = "<num>")
 	private double defaultScore = DEFAULT_SCORE;
 
 	@Option(names = "--payload", description = "Field containing the payload.", paramLabel = "<field>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<String> payload = Optional.empty();
 
 	@Option(names = "--increment", description = "Increment the existing suggestion by the score instead of replacing the score.")
@@ -38,7 +38,7 @@ public class SugaddOptions {
 		return score;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter
 	public void setScore(Optional<String> scoreField) {
 		this.score = scoreField;
 	}
@@ -55,7 +55,7 @@ public class SugaddOptions {
 		return payload;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter
 	public void setPayload(Optional<String> payload) {
 		this.payload = payload;
 	}

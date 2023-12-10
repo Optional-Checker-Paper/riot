@@ -9,7 +9,7 @@ public class ExpireOptions {
 	public static final long DEFAULT_TTL = 60;
 
 	@Option(names = "--ttl", description = "EXPIRE timeout field.", paramLabel = "<field>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<String> ttlField = Optional.empty();
 
 	@Option(names = "--ttl-default", description = "EXPIRE default timeout (default: ${DEFAULT-VALUE}).", paramLabel = "<sec>")
@@ -19,7 +19,7 @@ public class ExpireOptions {
 		return ttlField;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
+	@SuppressWarnings("optional:optional.parameter") // optional-parameter
 	public void setTtlField(Optional<String> field) {
 		this.ttlField = field;
 	}

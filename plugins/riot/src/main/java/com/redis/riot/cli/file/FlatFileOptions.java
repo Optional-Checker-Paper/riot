@@ -22,10 +22,10 @@ public class FlatFileOptions {
 	@Option(names = { "-h", "--header" }, description = "Delimited/FW first line contains field names.")
 	private boolean header;
 	@Option(names = "--header-line", description = "Index of header line.", paramLabel = "<index>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<Integer> headerLine = Optional.empty();
 	@Option(names = "--delimiter", description = "Delimiter character.", paramLabel = "<string>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<String> delimiter = Optional.empty();
 	@Option(names = "--skip", description = "Delimited/FW lines to skip at start.", paramLabel = "<count>")
 	private int linesToSkip;
@@ -146,9 +146,9 @@ public class FlatFileOptions {
 		private int maxItemCount;
 		private List<String> names = new ArrayList<>();
 		private boolean header;
-		@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+		@SuppressWarnings("optional:optional.field") // optional-field
 		private Optional<Integer> headerLine = Optional.empty();
-		@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+		@SuppressWarnings("optional:optional.field") // optional-field
 		private Optional<String> delimiter = Optional.empty();
 		private int linesToSkip;
 		private int[] includedFields;
@@ -163,7 +163,7 @@ public class FlatFileOptions {
 			return headerLine(Optional.of(lineIndex));
 		}
 
-		@SuppressWarnings("optional:optional.parameter") // optional-field : use of optional as a parameter
+		@SuppressWarnings("optional:optional.parameter") // optional-parameter
 		public Builder headerLine(Optional<Integer> lineIndex) {
 			this.headerLine = lineIndex;
 			return this;
@@ -188,7 +188,7 @@ public class FlatFileOptions {
 			return delimiter(Optional.of(delimiter));
 		}
 
-		@SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
+		@SuppressWarnings("optional:optional.parameter") // optional-parameter
 		public Builder delimiter(Optional<String> delimiter) {
 			this.delimiter = delimiter;
 			return this;

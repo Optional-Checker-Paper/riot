@@ -18,7 +18,7 @@ import picocli.CommandLine.Option;
 public class JsonSetCommand extends AbstractKeyCommand {
 
 	@Option(names = "--path", description = "Path field.", paramLabel = "<field>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<String> path = Optional.empty();
 
 	private ObjectMapper mapper = new ObjectMapper();

@@ -21,13 +21,13 @@ import picocli.CommandLine.Option;
 public class GcsOptions {
 
 	@Option(names = "--gcs-key-file", description = "GCS private key (e.g. /usr/local/key.json).", paramLabel = "<file>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<File> keyFile = Optional.empty();
 	@Option(names = "--gcs-project", description = "GCP project id.", paramLabel = "<id>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<String> projectId = Optional.empty();
 	@Option(names = "--gcs-key", arity = "0..1", interactive = true, description = "GCS Base64 encoded key.", paramLabel = "<key>")
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<String> encodedKey = Optional.empty();
 
 	public void setKeyFile(File credentials) {

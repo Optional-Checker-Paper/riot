@@ -69,7 +69,7 @@ public class FileImport extends AbstractOperationImportCommand {
 	private FlatFileOptions flatFileOptions = new FlatFileOptions();
 
 	@Option(names = { "-t", "--filetype" }, description = "File type: ${COMPLETION-CANDIDATES}.", paramLabel = "<type>")
-	@SuppressWarnings({"optional:optional.field"}) // optional-field : use of optional as a field
+	@SuppressWarnings({"optional:optional.field"}) // optional-field
 	private Optional<FileType> fileType = Optional.empty();
 
 	public FileImport() {
@@ -279,7 +279,7 @@ public class FileImport extends AbstractOperationImportCommand {
 
 		private FlatFileOptions flatFileOptions = new FlatFileOptions();
 		private FileOptions fileOptions = new FileOptions();
-		@SuppressWarnings({"optional:optional.field"}) // optional-field : use of optional as a field
+		@SuppressWarnings({"optional:optional.field"}) // optional-field
 		private Optional<FileType> fileType = Optional.empty();
 
 		public Builder flatFileOptions(FlatFileOptions options) {
@@ -298,7 +298,7 @@ public class FileImport extends AbstractOperationImportCommand {
 			return fileType(Optional.of(type));
 		}
 
-		@SuppressWarnings({"optional:optional.parameter"}) // optional-parameter : use of optional as a parameter
+		@SuppressWarnings({"optional:optional.parameter"}) // optional-parameter
 		public Builder fileType(Optional<FileType> type) {
 			this.fileType = type;
 			return this;
