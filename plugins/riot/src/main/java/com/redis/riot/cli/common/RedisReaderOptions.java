@@ -99,7 +99,6 @@ public class RedisReaderOptions {
 		this.keyExcludes = keyExcludes;
 	}
 
-	@SuppressWarnings("optional:optional.field") // optional-field
 	public Optional<ReadFromEnum> getReadFrom() {
 		return readFrom;
 	}
