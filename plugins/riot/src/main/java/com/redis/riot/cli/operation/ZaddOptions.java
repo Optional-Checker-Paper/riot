@@ -9,7 +9,7 @@ public class ZaddOptions {
 	public static final double DEFAULT_SCORE = 1;
 
 	@Option(names = "--score", description = "Name of the field to use for scores.", paramLabel = "<field>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<String> score = Optional.empty();
 	@Option(names = "--score-default", description = "Score when field not present (default: ${DEFAULT-VALUE}).", paramLabel = "<num>")
 	private double defaultScore = DEFAULT_SCORE;
@@ -18,7 +18,7 @@ public class ZaddOptions {
 		return score;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public void setScore(Optional<String> scoreField) {
 		this.score = scoreField;
 	}

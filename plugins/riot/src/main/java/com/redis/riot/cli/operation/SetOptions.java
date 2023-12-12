@@ -12,7 +12,7 @@ public class SetOptions {
 	private StringFormat format = DEFAULT_FORMAT;
 
 	@Option(names = "--field", description = "Raw value field.", paramLabel = "<field>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<String> field = Optional.empty();
 
 	@Option(names = "--root", description = "XML root element name.", paramLabel = "<name>")

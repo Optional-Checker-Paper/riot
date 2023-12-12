@@ -25,7 +25,7 @@ public class RedisReaderOptions {
 	private long scanCount = ScanOptions.DEFAULT_COUNT;
 
 	@Option(names = "--scan-type", description = "SCAN TYPE option.", paramLabel = "<type>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<String> scanType = Optional.empty();
 
 	@Option(names = "--read-queue", description = "Capacity of the reader queue (default: ${DEFAULT-VALUE}).", paramLabel = "<int>")
@@ -41,7 +41,7 @@ public class RedisReaderOptions {
 	private int poolMaxTotal = PoolOptions.DEFAULT_MAX_TOTAL;
 
 	@Option(names = "--read-from", description = "Which Redis cluster nodes to read data from: ${COMPLETION-CANDIDATES}.", paramLabel = "<name>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<ReadFromEnum> readFrom = Optional.empty();
 
 	@Option(names = "--key-include", arity = "1..*", description = "Regexes to match keys for inclusion.", paramLabel = "<exp>")
@@ -103,7 +103,7 @@ public class RedisReaderOptions {
 		return readFrom;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public void setReadFrom(Optional<ReadFromEnum> readFrom) {
 		this.readFrom = readFrom;
 	}
@@ -160,7 +160,7 @@ public class RedisReaderOptions {
 		return scanType;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public void setScanType(Optional<String> type) {
 		this.scanType = type;
 	}

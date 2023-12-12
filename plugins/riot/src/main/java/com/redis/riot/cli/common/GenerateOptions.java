@@ -38,7 +38,7 @@ public class GenerateOptions {
 	@Option(arity = "1..*", names = "--types", description = "Data structure types to generate: ${COMPLETION-CANDIDATES} (default: ${DEFAULT-VALUE}).", paramLabel = "<type>")
 	private List<Type> types = GeneratorItemReader.defaultTypes();
 	@Option(names = "--expiration", description = "TTL in seconds.", paramLabel = "<secs>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<IntRange> expiration = Optional.empty();
 	@Option(names = "--hash-fields", description = "Number of fields in hashes (default: ${DEFAULT-VALUE}).", paramLabel = "<range>")
 	private IntRange hashSize = MapOptions.DEFAULT_FIELD_COUNT;
@@ -63,7 +63,7 @@ public class GenerateOptions {
 	@Option(names = "--ts-size", description = "Number of samples in timeseries (default: ${DEFAULT-VALUE}).", paramLabel = "<range>")
 	private IntRange timeseriesSize = TimeSeriesOptions.DEFAULT_SAMPLE_COUNT;
 	@Option(names = "--ts-time", description = "Start time for samples in timeseries, e.g. 2007-12-03T10:15:30.00Z (default: now).", paramLabel = "<epoch>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<Instant> timeseriesStartTime = Optional.empty();
 	@Option(names = "--zset-size", description = "Number of elements in sorted sets (default: ${DEFAULT-VALUE}).", paramLabel = "<range>")
 	private IntRange zsetSize = CollectionOptions.DEFAULT_CARDINALITY;
@@ -214,7 +214,7 @@ public class GenerateOptions {
 		return timeseriesStartTime;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public void setTimeseriesStartTime(Optional<Instant> timeseriesStartTime) {
 		this.timeseriesStartTime = timeseriesStartTime;
 	}
@@ -223,7 +223,7 @@ public class GenerateOptions {
 		this.types = types;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public void setExpiration(Optional<IntRange> expiration) {
 		this.expiration = expiration;
 	}

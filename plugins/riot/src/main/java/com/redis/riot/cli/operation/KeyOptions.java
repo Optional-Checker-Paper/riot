@@ -7,7 +7,7 @@ import picocli.CommandLine.Option;
 public class KeyOptions {
 
 	@Option(names = { "-p", "--keyspace" }, description = "Keyspace prefix.", paramLabel = "<str>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<String> keyspace = Optional.empty();
 
 	@Option(names = { "-k", "--keys" }, arity = "1..*", description = "Key fields.", paramLabel = "<fields>")
@@ -25,7 +25,7 @@ public class KeyOptions {
 		return keyspace;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public void setKeyspace(Optional<String> keyspace) {
 		this.keyspace = keyspace;
 	}

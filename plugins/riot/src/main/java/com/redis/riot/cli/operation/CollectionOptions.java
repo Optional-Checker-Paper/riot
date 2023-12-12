@@ -7,7 +7,7 @@ import picocli.CommandLine.Option;
 public class CollectionOptions {
 
 	@Option(names = "--member-space", description = "Keyspace prefix for member IDs.", paramLabel = "<str>")
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<String> memberSpace = Optional.empty();
 
 	@Option(arity = "1..*", names = { "-m",
@@ -26,7 +26,7 @@ public class CollectionOptions {
 		this.memberFields = memberFields;
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public void setMemberSpace(Optional<String> memberSpace) {
 		this.memberSpace = memberSpace;
 	}

@@ -11,7 +11,7 @@ public class IdConverterBuilder {
 	public static final String DEFAULT_SEPARATOR = ":";
 
 	private String separator = DEFAULT_SEPARATOR;
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<String> prefix = Optional.empty();
 	private final FieldExtractorFactory extractorFactory = FieldExtractorFactory.builder().nullCheck(true).build();
 	private final List<String> fields = new ArrayList<>();
@@ -34,7 +34,7 @@ public class IdConverterBuilder {
 		return prefix(Optional.of(prefix));
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public IdConverterBuilder prefix(Optional<String> prefix) {
 		this.prefix = prefix;
 		return this;
@@ -45,7 +45,7 @@ public class IdConverterBuilder {
 		return this;
 	}
 
-	@SuppressWarnings("optional:method.invocation") // bug : lambda closes over the value of an optional that might be present at capture but not at invocation.
+	@SuppressWarnings("optional:method.invocation") // true positive : lambda closes over the value of an optional that might be present at capture but not at invocation.
 	public Function<Map<String, Object>, String> build() {
 		if (fields.isEmpty()) {
 			if (prefix.isPresent()) {
