@@ -45,7 +45,7 @@ public class IdConverterBuilder {
 		return this;
 	}
 
-	@SuppressWarnings("optional:method.invocation") // lambda captures an optional, there are no methods defined to mutate the optional.
+	@SuppressWarnings("optional:method.invocation") // bug : lambda closes over the value of an optional that might be present at capture but not at invocation.
 	public Function<Map<String, Object>, String> build() {
 		if (fields.isEmpty()) {
 			if (prefix.isPresent()) {
