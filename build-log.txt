@@ -1,0 +1,535 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.6.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+No android or java plugins found in the project riot, checker compiler options will not be applied.
+
+> Configure project :guide
+No android or java plugins found in the project guide, checker compiler options will not be applied.
+
+> Configure project :riot
+No explicit dependency on the Checker Framework found, using default version 3.40.0
+[versioning] WARNING - the working copy has unstaged or uncommitted changes.
+
+> Task :assemble UP-TO-DATE
+> Task :guide:assemble UP-TO-DATE
+> Task :riot:createCheckerFrameworkManifest
+> Task :riot-core:createCheckerFrameworkManifest
+
+> Task :riot-core:compileJava
+warning: The following options were not recognized by any processor: '[projectPath]'
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		return extensionGroup(file, "gz").isPresent();
+		                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		return extensionGroup(file, "gz").isPresent();
+		                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+				.orElseThrow(() -> new UnknownFileTypeException("Could not determine file extension"));
+				            ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+				.orElseThrow(() -> new UnknownFileTypeException("Could not determine file extension"));
+				^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	static Optional<FileExtension> extensionGroup(String file, String group) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	static Optional<FileExtension> extensionGroup(String file, String group) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				return Optional.empty();
+				                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+				return Optional.empty();
+				                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+				return Optional.empty();
+				               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	static Optional<FileExtension> extensionGroup(String file, String group) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				return Optional.of(FileExtension.valueOf(extensionString.toUpperCase()));
+				                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+				return Optional.of(FileExtension.valueOf(extensionString.toUpperCase()));
+				                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+				return Optional.of(FileExtension.valueOf(extensionString.toUpperCase()));
+				               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	static Optional<FileExtension> extensionGroup(String file, String group) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	static Optional<FileExtension> extensionGroup(String file, String group) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		               ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> prefix = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> prefix = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> prefix = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> prefix = Optional.empty();
+	                                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return prefix(Optional.of(prefix));
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return prefix(Optional.of(prefix));
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return prefix(Optional.of(prefix));
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public IdConverterBuilder prefix(Optional<String> prefix) {
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.prefix = prefix;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.prefix = prefix;
+		              ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (prefix.isPresent()) {
+			                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (prefix.isPresent()) {
+			          ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				return m -> prefix.get();
+				                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				return m -> prefix.get();
+				                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (prefix.isPresent()) {
+			                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (prefix.isPresent()) {
+			          ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				return s -> prefix.get() + separator + extractor.apply(s);
+				                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				return s -> prefix.get() + separator + extractor.apply(s);
+				                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		prefix.ifPresent(p -> stringConverters.add(s -> p));
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		prefix.ifPresent(p -> stringConverters.add(s -> p));
+		      ^
+42 warnings
+
+> Task :riot:compileJava
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireCommand.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return new Expire<>(key(), numberExtractor(options.getTtlField(), Long.class, options.getDefaultTtl()));
+		                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractKeyCommand.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return idMaker(keyOptions.getKeyspace(), keyOptions.getKeys());
+		                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected Function<Map<String, Object>, String> stringFieldExtractor(Optional<String> field) {
+	                                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (field.isPresent()) {
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (field.isPresent()) {
+		         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return stringFieldExtractor(field.get());
+			                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return stringFieldExtractor(field.get());
+			                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected <T extends Number> Function<Map<String, Object>, T> numberExtractor(Optional<String> field,
+	                                                                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (field.isPresent()) {
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (field.isPresent()) {
+		         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return numberExtractor(field.get(), targetType, defaultValue);
+			                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return numberExtractor(field.get(), targetType, defaultValue);
+			                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected Function<Map<String, Object>, String> idMaker(Optional<String> prefix, String... fields) {
+	                                                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractOperationCommand.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				.remove(commandOptions.isRemoveFields()).prefix(prefix).fields(fields).build();
+				                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> ttlField = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> ttlField = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> ttlField = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> ttlField = Optional.empty();
+	                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:17: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getTtlField() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:17: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getTtlField() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return ttlField;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setTtlField(Optional<String> field) {
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.ttlField = field;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ExpireOptions.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.ttlField = field;
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> keyspace = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> keyspace = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> keyspace = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> keyspace = Optional.empty();
+	                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getKeyspace() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getKeyspace() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return keyspace;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setKeyspace(Optional<String> keyspace) {
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keyspace = keyspace;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/KeyOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keyspace = keyspace;
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/AbstractCollectionCommand.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return idMaker(collectionOptions.getMemberSpace(), collectionOptions.getMemberFields());
+		                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> memberSpace = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> memberSpace = Optional.empty();
+	                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> memberSpace = Optional.empty();
+	                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> memberSpace = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getMemberSpace() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getMemberSpace() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return memberSpace;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setMemberSpace(Optional<String> memberSpace) {
+	                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.memberSpace = memberSpace;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/CollectionOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.memberSpace = memberSpace;
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			Optional<String> field = options.getField();
+			                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			Optional<String> field = options.getField();
+			                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetCommand.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (!field.isPresent()) {
+			                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetCommand.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (!field.isPresent()) {
+			          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetCommand.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return stringFieldExtractor(field.get());
+			                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetCommand.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return stringFieldExtractor(field.get());
+			                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> field = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> field = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> field = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> field = Optional.empty();
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getField() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getField() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return field;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.field = Optional.of(field);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.field = Optional.of(field);
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.field = Optional.of(field);
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SetOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.field = Optional.of(field);
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Long> maxlen = Optional.empty();
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Long> maxlen = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Long> maxlen = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Long> maxlen = Optional.empty();
+	                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Long> getMaxlen() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Long> getMaxlen() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return maxlen;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.maxlen = Optional.of(maxlen);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.maxlen = Optional.of(maxlen);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.maxlen = Optional.of(maxlen);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddOptions.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.maxlen = Optional.of(maxlen);
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> score = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> score = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> score = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> score = Optional.empty();
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getScore() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getScore() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:17: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return score;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setScore(Optional<String> scoreField) {
+	                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.score = scoreField;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddOptions.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.score = scoreField;
+		             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddCommand.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				numberExtractor(options.getScore(), Double.class, options.getDefaultScore()),
+				                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				stringFieldExtractor(options.getPayload()));
+				                                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> score = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> score = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> score = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> score = Optional.empty();
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> payload = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> payload = Optional.empty();
+	                                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> payload = Optional.empty();
+	                                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> payload = Optional.empty();
+	                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getScore() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getScore() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return score;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setScore(Optional<String> scoreField) {
+	                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.score = scoreField;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.score = scoreField;
+		             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getPayload() {
+	                        ^
+100 warnings
+
+> Task :riot:processResources
+> Task :riot:classes
+> Task :riot-core:processResources NO-SOURCE
+> Task :riot-core:classes
+> Task :riot-core:minpom
+> Task :riot-core:jar
+> Task :riot:bootJarMainClassName
+> Task :riot:bootJar SKIPPED
+> Task :riot:bootStartScripts SKIPPED
+> Task :riot:bootDistTar NO-SOURCE
+> Task :riot:bootDistZip NO-SOURCE
+> Task :riot:copyDependencies
+> Task :riot:copyJdkFromCacheZulu17Linux
+> Task :riot:copyJdkFromCacheZulu17LinuxArm
+> Task :riot:copyJdkFromCacheZulu17LinuxMusl
+> Task :riot:copyJdkFromCacheZulu17LinuxMuslArm
+> Task :riot:copyJdkFromCacheZulu17Osx
+> Task :riot:copyJdkFromCacheZulu17OsxArm
+> Task :riot:copyJdkFromCacheZulu17Windows
+> Task :riot:copyJdkFromCacheZulu17WindowsArm
+> Task :riot:copyJdksFromCache
+> Task :riot:minpom
+> Task :riot:jar
+> Task :riot:startScripts
+> Task :riot:distTar
+> Task :riot:distZip
+> Task :riot:javadoc
+> Task :riot:copyDocFiles
+> Task :riot:javadocJar
+> Task :riot:downloadJdkZulu17Linux SKIPPED
+> Task :riot:downloadJdkZulu17LinuxArm SKIPPED
+> Task :riot:downloadJdkZulu17LinuxMusl SKIPPED
+> Task :riot:downloadJdkZulu17LinuxMuslArm SKIPPED
+> Task :riot:downloadJdkZulu17Osx SKIPPED
+> Task :riot:downloadJdkZulu17OsxArm SKIPPED
+> Task :riot:downloadJdkZulu17Windows SKIPPED
+> Task :riot:downloadJdkZulu17WindowsArm SKIPPED
+> Task :riot:downloadJdks UP-TO-DATE
+> Task :riot:verifyJdkZulu17Linux SKIPPED
+> Task :riot:unpackJdkZulu17Linux SKIPPED
+> Task :riot:verifyJdkZulu17LinuxArm SKIPPED
+> Task :riot:unpackJdkZulu17LinuxArm SKIPPED
+> Task :riot:verifyJdkZulu17LinuxMusl SKIPPED
+> Task :riot:unpackJdkZulu17LinuxMusl SKIPPED
+> Task :riot:verifyJdkZulu17LinuxMuslArm SKIPPED
+> Task :riot:unpackJdkZulu17LinuxMuslArm SKIPPED
+> Task :riot:verifyJdkZulu17Osx SKIPPED
+> Task :riot:unpackJdkZulu17Osx SKIPPED
+> Task :riot:verifyJdkZulu17OsxArm SKIPPED
+> Task :riot:unpackJdkZulu17OsxArm SKIPPED
+> Task :riot:verifyJdkZulu17Windows SKIPPED
+> Task :riot:unpackJdkZulu17Windows SKIPPED
+> Task :riot:verifyJdkZulu17WindowsArm SKIPPED
+> Task :riot:unpackJdkZulu17WindowsArm SKIPPED
+> Task :riot:unpackJdks UP-TO-DATE
+> Task :riot:verifyJdks UP-TO-DATE
+> Task :riot:setupJdks UP-TO-DATE
+> Task :riot:copyJdksToCache NO-SOURCE
+> Task :riot:sourcesJar
+> Task :riot:assemble
+> Task :riot-core:bootJarMainClassName
+> Task :riot-core:bootJar SKIPPED
+> Task :riot-core:javadoc
+> Task :riot-core:copyDocFiles
+> Task :riot-core:javadocJar
+> Task :riot-core:sourcesJar
+> Task :riot-core:assemble
+
+--------------------------------------------------------------------
+4 projects                                       CONF        EXEC   
+--------------------------------------------------------------------
+: .................................. [32mSUCCESS[0m [  0.215 s] [  0.000 s] 
+:guide ............................. [32mSUCCESS[0m [  0.059 s] [  0.000 s] 
+:riot .............................. [32mSUCCESS[0m [  0.117 s] [ 27.920 s] 
+:riot-core ......................... [32mSUCCESS[0m [  0.011 s] [  5.280 s] 
+--------------------------------------------------------------------
+4 projects executed
+--------------------------------------------------------------------
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 39s
+31 actionable tasks: 31 executed
