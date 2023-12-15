@@ -444,7 +444,1273 @@ warning: The following options were not recognized by any processor: '[projectPa
 /tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
 	public Optional<String> getPayload() {
 	                        ^
-100 warnings
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getPayload() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return payload;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setPayload(Optional<String> payload) {
+	                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.payload = payload;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/SugaddOptions.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.payload = payload;
+		               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> path = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> path = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> path = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> path = Optional.empty();
+	                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+		return path.map(this::stringFieldExtractor).orElse(JsonSet.rootPath());
+		                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+		return path.map(this::stringFieldExtractor).orElse(JsonSet.rootPath());
+		                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+		return path.map(this::stringFieldExtractor).orElse(JsonSet.rootPath());
+		               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/JsonSetCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+		return path.map(this::stringFieldExtractor).orElse(JsonSet.rootPath());
+		           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> timestampField = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> timestampField = Optional.empty();
+	                                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> timestampField = Optional.empty();
+	                                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> timestampField = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getTimestampField() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getTimestampField() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return timestampField;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setTimestampField(Optional<String> timestampField) {
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timestampField = timestampField;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timestampField = timestampField;
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddCommand.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		options.getMaxlen().ifPresent(args::maxlen);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/XaddCommand.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		options.getMaxlen().ifPresent(args::maxlen);
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/TsAddCommand.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return new SampleConverter<>(numberExtractor(options.getTimestampField(), Long.class, null),
+		                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/operation/ZaddCommand.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				numberExtractor(options.getScore(), Double.class, options.getDefaultScore())));
+				                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> host = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> host = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> host = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> host = Optional.empty();
+	                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> socket = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> socket = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> socket = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> socket = Optional.empty();
+	                                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Long> timeout = Optional.empty();
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Long> timeout = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Long> timeout = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Long> timeout = Optional.empty();
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> keystore = Optional.empty();
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> keystore = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> keystore = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> keystore = Optional.empty();
+	                                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> truststore = Optional.empty();
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> truststore = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> truststore = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> truststore = Optional.empty();
+	                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> key = Optional.empty();
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> key = Optional.empty();
+	                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> key = Optional.empty();
+	                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> key = Optional.empty();
+	                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> trustedCerts = Optional.empty();
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> trustedCerts = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> trustedCerts = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> trustedCerts = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> clientName = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> clientName = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> clientName = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> clientName = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getHost() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getHost() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return host;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		setHost(Optional.of(host));
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		setHost(Optional.of(host));
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		setHost(Optional.of(host));
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setHost(Optional<String> host) {
+	                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.host = host;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.host = host;
+		            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.socket = Optional.of(socket);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.socket = Optional.of(socket);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.socket = Optional.of(socket);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.socket = Optional.of(socket);
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timeout = Optional.of(timeout);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timeout = Optional.of(timeout);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.timeout = Optional.of(timeout);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.timeout = Optional.of(timeout);
+		                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keystore = Optional.of(keystore);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keystore = Optional.of(keystore);
+		                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.keystore = Optional.of(keystore);
+		                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.keystore = Optional.of(keystore);
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.truststore = Optional.of(truststore);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.truststore = Optional.of(truststore);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.truststore = Optional.of(truststore);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.truststore = Optional.of(truststore);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:160: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getSocket() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:160: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getSocket() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:161: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return socket;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:164: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setSocket(Optional<String> socket) {
+	                                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:165: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.socket = socket;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:165: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.socket = socket;
+		              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:168: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Long> getTimeout() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:168: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Long> getTimeout() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:169: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return timeout;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:172: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setTimeout(Optional<Long> timeout) {
+	                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:173: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timeout = timeout;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:173: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timeout = timeout;
+		               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getKey() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getKey() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:177: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return key;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:180: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setKey(Optional<File> key) {
+	                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:181: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.key = key;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:181: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.key = key;
+		           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:200: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getKeystore() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:200: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getKeystore() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:201: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return keystore;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:204: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setKeystore(Optional<File> keystore) {
+	                                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:205: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keystore = keystore;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:205: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keystore = keystore;
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:212: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getTruststore() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:212: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getTruststore() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return truststore;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:216: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setTruststore(Optional<File> truststore) {
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:217: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.truststore = truststore;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:217: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.truststore = truststore;
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:224: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getTrustedCerts() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:224: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<File> getTrustedCerts() {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:225: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return trustedCerts;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setTrustedCerts(Optional<File> trustedCerts) {
+	                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:229: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.trustedCerts = trustedCerts;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:229: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.trustedCerts = trustedCerts;
+		                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.trustedCerts = Optional.of(certs);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.trustedCerts = Optional.of(certs);
+		                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.trustedCerts = Optional.of(certs);
+		                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.trustedCerts = Optional.of(certs);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getClientName() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getClientName() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:245: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return clientName;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:248: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setClientName(Optional<String> clientName) {
+	                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:249: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.clientName = clientName;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:249: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.clientName = clientName;
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:293: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.clientName = Optional.of(clientName);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:293: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.clientName = Optional.of(clientName);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:293: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.clientName = Optional.of(clientName);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisOptions.java:293: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.clientName = Optional.of(clientName);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<ProgressStyle> progressStyle = Optional.empty();
+	                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<ProgressStyle> progressStyle = Optional.empty();
+	                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<ProgressStyle> progressStyle = Optional.empty();
+	                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<ProgressStyle> progressStyle = Optional.empty();
+	                                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.progressStyle = Optional.of(style);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.progressStyle = Optional.of(style);
+		                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.progressStyle = Optional.of(style);
+		                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.progressStyle = Optional.of(style);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+		return progressStyle.orElse(options.getProgressStyle());
+		                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotStep.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+		return progressStyle.orElse(options.getProgressStyle());
+		                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> scanType = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> scanType = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> scanType = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> scanType = Optional.empty();
+	                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<ReadFromEnum> readFrom = Optional.empty();
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<ReadFromEnum> readFrom = Optional.empty();
+	                                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<ReadFromEnum> readFrom = Optional.empty();
+	                                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<ReadFromEnum> readFrom = Optional.empty();
+	                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFromEnum> getReadFrom() {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFromEnum> getReadFrom() {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return readFrom;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setReadFrom(Optional<ReadFromEnum> readFrom) {
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.readFrom = readFrom;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.readFrom = readFrom;
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getScanType() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getScanType() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return scanType;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:160: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setScanType(Optional<String> type) {
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:161: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.scanType = type;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:161: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.scanType = type;
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:182: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		builder.readFrom(readFrom());
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:192: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFrom> readFrom() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:192: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFrom> readFrom() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:193: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return readFrom.map(ReadFromEnum::getValue);
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:193: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+		return readFrom.map(ReadFromEnum::getValue);
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RedisReaderOptions.java:193: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+		return readFrom.map(ReadFromEnum::getValue);
+		               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> accessKey = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> accessKey = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> accessKey = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> accessKey = Optional.empty();
+	                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> secretKey = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> secretKey = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> secretKey = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> secretKey = Optional.empty();
+	                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> region = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> region = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> region = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> region = Optional.empty();
+	                                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.accessKey = Optional.of(accessKey);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.accessKey = Optional.of(accessKey);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.accessKey = Optional.of(accessKey);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.accessKey = Optional.of(accessKey);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.secretKey = Optional.of(secretKey);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.secretKey = Optional.of(secretKey);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.secretKey = Optional.of(secretKey);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.secretKey = Optional.of(secretKey);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.region = Optional.of(region);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.region = Optional.of(region);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.region = Optional.of(region);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.region = Optional.of(region);
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		region.ifPresent(clientBuilder::withRegion);
+		                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		region.ifPresent(clientBuilder::withRegion);
+		      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		accessKey.ifPresent(
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+						secretKey.orElseThrow(() -> new IllegalArgumentException("Secret key is missing"))))));
+						                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+						secretKey.orElseThrow(() -> new IllegalArgumentException("Secret key is missing"))))));
+						         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/S3Options.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		accessKey.ifPresent(
+		         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> keyFile = Optional.empty();
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<File> keyFile = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> keyFile = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<File> keyFile = Optional.empty();
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> projectId = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> projectId = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> projectId = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> projectId = Optional.empty();
+	                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> encodedKey = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> encodedKey = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> encodedKey = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> encodedKey = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keyFile = Optional.of(credentials);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keyFile = Optional.of(credentials);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.keyFile = Optional.of(credentials);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.keyFile = Optional.of(credentials);
+		                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.projectId = Optional.of(projectId);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.projectId = Optional.of(projectId);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.projectId = Optional.of(projectId);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.projectId = Optional.of(projectId);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.encodedKey = Optional.of(encodedKey);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.encodedKey = Optional.of(encodedKey);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.encodedKey = Optional.of(encodedKey);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.encodedKey = Optional.of(encodedKey);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (keyFile.isPresent()) {
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (keyFile.isPresent()) {
+		           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			builder.setCredentials(GoogleCredentials.fromStream(Files.newInputStream(keyFile.get().toPath()))
+			                                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			builder.setCredentials(GoogleCredentials.fromStream(Files.newInputStream(keyFile.get().toPath()))
+			                                                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (encodedKey.isPresent()) {
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (encodedKey.isPresent()) {
+		              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+					.fromStream(new ByteArrayInputStream(Base64.getDecoder().decode(encodedKey.get()))));
+					                                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+					.fromStream(new ByteArrayInputStream(Base64.getDecoder().decode(encodedKey.get()))));
+					                                                                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		projectId.ifPresent(builder::setProjectId);
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/GcsOptions.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		projectId.ifPresent(builder::setProjectId);
+		         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Integer> headerLine = Optional.empty();
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Integer> headerLine = Optional.empty();
+	                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Integer> headerLine = Optional.empty();
+	                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Integer> headerLine = Optional.empty();
+	                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> delimiter = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> delimiter = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> delimiter = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> delimiter = Optional.empty();
+	                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.headerLine = builder.headerLine;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.headerLine = builder.headerLine;
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.delimiter = builder.delimiter;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.delimiter = builder.delimiter;
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.delimiter = Optional.of(delimiter);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.delimiter = Optional.of(delimiter);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.delimiter = Optional.of(delimiter);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.delimiter = Optional.of(delimiter);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Integer> getHeaderLine() {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Integer> getHeaderLine() {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return headerLine;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.headerLine = Optional.of(lineIndex);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.headerLine = Optional.of(lineIndex);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.headerLine = Optional.of(lineIndex);
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.headerLine = Optional.of(lineIndex);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:119: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getDelimiter() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:119: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getDelimiter() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:120: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return delimiter;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		private Optional<Integer> headerLine = Optional.empty();
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		private Optional<Integer> headerLine = Optional.empty();
+		                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		private Optional<Integer> headerLine = Optional.empty();
+		                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		private Optional<Integer> headerLine = Optional.empty();
+		                                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		private Optional<String> delimiter = Optional.empty();
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		private Optional<String> delimiter = Optional.empty();
+		                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		private Optional<String> delimiter = Optional.empty();
+		                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		private Optional<String> delimiter = Optional.empty();
+		                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return headerLine(Optional.of(lineIndex));
+			                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return headerLine(Optional.of(lineIndex));
+			                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return headerLine(Optional.of(lineIndex));
+			                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Builder headerLine(Optional<Integer> lineIndex) {
+		                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			this.headerLine = lineIndex;
+			    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			this.headerLine = lineIndex;
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return delimiter(Optional.of(delimiter));
+			                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return delimiter(Optional.of(delimiter));
+			                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return delimiter(Optional.of(delimiter));
+			                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:186: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Builder delimiter(Optional<String> delimiter) {
+		                                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			this.delimiter = delimiter;
+			    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/FlatFileOptions.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			this.delimiter = delimiter;
+			                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected Optional<FileDumpType> type = Optional.empty();
+	                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected Optional<FileDumpType> type = Optional.empty();
+	                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	protected Optional<FileDumpType> type = Optional.empty();
+	                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	protected Optional<FileDumpType> type = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<FileDumpType> getType() {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<FileDumpType> getType() {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return type;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.type = Optional.of(type);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.type = Optional.of(type);
+		                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.type = Optional.of(type);
+		                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.type = Optional.of(type);
+		                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (type.isPresent()) {
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (type.isPresent()) {
+		        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return type.get();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/file/DumpOptions.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return type.get();
+			           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/Generate.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		reader.setExpiration(generateOptions.getExpiration());
+		                                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<IntRange> expiration = Optional.empty();
+	                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<IntRange> expiration = Optional.empty();
+	                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<IntRange> expiration = Optional.empty();
+	                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<IntRange> expiration = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Instant> timeseriesStartTime = Optional.empty();
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<Instant> timeseriesStartTime = Optional.empty();
+	                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Instant> timeseriesStartTime = Optional.empty();
+	                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<Instant> timeseriesStartTime = Optional.empty();
+	                                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<IntRange> getExpiration() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<IntRange> getExpiration() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return expiration;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:211: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Instant> getTimeseriesStartTime() {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:211: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Instant> getTimeseriesStartTime() {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:212: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return timeseriesStartTime;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:215: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setTimeseriesStartTime(Optional<Instant> timeseriesStartTime) {
+	                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:216: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timeseriesStartTime = timeseriesStartTime;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:216: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.timeseriesStartTime = timeseriesStartTime;
+		                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:223: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setExpiration(Optional<IntRange> expiration) {
+	                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:224: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.expiration = expiration;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:224: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.expiration = expiration;
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:270: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		timeseriesStartTime.ifPresent(t -> builder.startTime(t.toEpochMilli()));
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/GenerateOptions.java:270: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		timeseriesStartTime.ifPresent(t -> builder.startTime(t.toEpochMilli()));
+		                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FakerImport.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		fakerImportOptions.getRedisearchIndex().ifPresent(index -> {
+		                                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FakerImport.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		fakerImportOptions.getRedisearchIndex().ifPresent(index -> {
+		                                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> redisearchIndex = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> redisearchIndex = Optional.empty();
+	                                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> redisearchIndex = Optional.empty();
+	                                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> redisearchIndex = Optional.empty();
+	                                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getRedisearchIndex() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getRedisearchIndex() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return redisearchIndex;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setRedisearchIndex(Optional<String> redisearchIndex) {
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.redisearchIndex = redisearchIndex;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/FakerImportOptions.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.redisearchIndex = redisearchIndex;
+		                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				Optional<String> version = version(resources.nextElement());
+				                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				Optional<String> version = version(resources.nextElement());
+				                                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (version.isPresent()) {
+				                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (version.isPresent()) {
+				           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+					return version.get();
+					                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+					return version.get();
+					              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static Optional<String> version(URL url) {
+	                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static Optional<String> version(URL url) {
+	                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				return Optional.of(String.valueOf(get(attr, "Implementation-Version")));
+				                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+				return Optional.of(String.valueOf(get(attr, "Implementation-Version")));
+				                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+				return Optional.of(String.valueOf(get(attr, "Implementation-Version")));
+				               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static Optional<String> version(URL url) {
+	                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static Optional<String> version(URL url) {
+	                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of("!!!");
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of("!!!");
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ManifestVersionProvider.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of("!!!");
+			               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		redisOptions.getHost().ifPresent(builder::host);
+		                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		redisOptions.getHost().ifPresent(builder::host);
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		builder.clientName(redisOptions.getClientName());
+		                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		builder.socket(redisOptions.getSocket());
+		                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		redisOptions.getTimeout().ifPresent(builder::timeoutInSeconds);
+		                                   ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		redisOptions.getTimeout().ifPresent(builder::timeoutInSeconds);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		builder.keystore(redisOptions.getKeystore());
+		                                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		builder.truststore(redisOptions.getTruststore());
+		                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		builder.trustManager(redisOptions.getTrustedCerts());
+		                                                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/RiotUtils.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		builder.key(redisOptions.getKey());
+		                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> keyProcessor = Optional.empty();
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> keyProcessor = Optional.empty();
+	                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> keyProcessor = Optional.empty();
+	                                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<String> keyProcessor = Optional.empty();
+	                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<ReadFromEnum> targetReadFrom = Optional.empty();
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<ReadFromEnum> targetReadFrom = Optional.empty();
+	                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<ReadFromEnum> targetReadFrom = Optional.empty();
+	                                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<ReadFromEnum> targetReadFrom = Optional.empty();
+	                                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFromEnum> getTargetReadFrom() {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFromEnum> getTargetReadFrom() {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return targetReadFrom;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setTargetReadFrom(Optional<ReadFromEnum> readFrom) {
+	                                                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.targetReadFrom = readFrom;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.targetReadFrom = readFrom;
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getKeyProcessor() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> getKeyProcessor() {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:127: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return keyProcessor;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public void setKeyProcessor(Optional<String> keyProcessor) {
+	                                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keyProcessor = keyProcessor;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.keyProcessor = keyProcessor;
+		                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFrom> targetReadFrom() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ReadFrom> targetReadFrom() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return targetReadFrom.map(ReadFromEnum::getValue);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+		return targetReadFrom.map(ReadFromEnum::getValue);
+		                         ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+		return targetReadFrom.map(ReadFromEnum::getValue);
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/common/ReplicateOptions.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return ReaderOptions.builder().poolOptions(targetPoolOptions()).readFrom(targetReadFrom()).build();
+		                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<FileType> fileType = Optional.empty();
+	                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<FileType> fileType = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<FileType> fileType = Optional.empty();
+	                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+	private Optional<FileType> fileType = Optional.empty();
+	                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.fileType = builder.fileType;
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.fileType = builder.fileType;
+		                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<FileType> getFileType() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<FileType> getFileType() {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return fileType;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.fileType = Optional.of(fileType);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.fileType = Optional.of(fileType);
+		                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.fileType = Optional.of(fileType);
+		                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		this.fileType = Optional.of(fileType);
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:138: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+		FileType type = getFileType().orElseGet(() -> type(resource));
+		                                       ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:138: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+		FileType type = getFileType().orElseGet(() -> type(resource));
+		                             ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+					flatFileOptions.getDelimiter().orElseGet(() -> delimiter(FileUtils.extension(resource))));
+					                                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+					flatFileOptions.getDelimiter().orElseGet(() -> delimiter(FileUtils.extension(resource))));
+					                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:230: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<Integer> headerLine = flatFileOptions.getHeaderLine();
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:230: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<Integer> headerLine = flatFileOptions.getHeaderLine();
+		                                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:231: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (headerLine.isPresent()) {
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:231: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (headerLine.isPresent()) {
+		              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:232: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return headerLine.get();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:232: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return headerLine.get();
+			                 ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:281: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		private Optional<FileType> fileType = Optional.empty();
+		                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:281: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		private Optional<FileType> fileType = Optional.empty();
+		                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:281: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		private Optional<FileType> fileType = Optional.empty();
+		                                                    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:281: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		private Optional<FileType> fileType = Optional.empty();
+		                                              ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:296: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return fileType(Optional.of(type));
+			                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:296: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return fileType(Optional.of(type));
+			                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:296: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return fileType(Optional.of(type));
+			                        ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:299: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Builder fileType(Optional<FileType> type) {
+		                                           ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:300: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			this.fileType = type;
+			    ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/FileImport.java:300: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			this.fileType = type;
+			                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/Replicate.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				&& !replicateOptions.getKeyProcessor().isPresent();
+				                                                ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/Replicate.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				&& !replicateOptions.getKeyProcessor().isPresent();
+				                                      ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/Replicate.java:259: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		replicateOptions.getKeyProcessor().ifPresent(p -> {
+		                                            ^
+/tmp/experiments/optional-paper-counts-repos/riot/plugins/riot/src/main/java/com/redis/riot/cli/Replicate.java:259: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		replicateOptions.getKeyProcessor().ifPresent(p -> {
+		                                  ^
+522 warnings
 
 > Task :riot:processResources
 > Task :riot:classes
@@ -473,7 +1739,7 @@ warning: The following options were not recognized by any processor: '[projectPa
 > Task :riot:distTar
 > Task :riot:distZip
 > Task :riot:javadoc
-> Task :riot:copyDocFiles
+> Task :riot:copyDocFiles UP-TO-DATE
 > Task :riot:javadocJar
 > Task :riot:downloadJdkZulu17Linux SKIPPED
 > Task :riot:downloadJdkZulu17LinuxArm SKIPPED
@@ -509,7 +1775,7 @@ warning: The following options were not recognized by any processor: '[projectPa
 > Task :riot-core:bootJarMainClassName
 > Task :riot-core:bootJar SKIPPED
 > Task :riot-core:javadoc
-> Task :riot-core:copyDocFiles
+> Task :riot-core:copyDocFiles UP-TO-DATE
 > Task :riot-core:javadocJar
 > Task :riot-core:sourcesJar
 > Task :riot-core:assemble
@@ -517,10 +1783,10 @@ warning: The following options were not recognized by any processor: '[projectPa
 --------------------------------------------------------------------
 4 projects                                       CONF        EXEC   
 --------------------------------------------------------------------
-: .................................. [32mSUCCESS[0m [  0.215 s] [  0.000 s] 
-:guide ............................. [32mSUCCESS[0m [  0.059 s] [  0.000 s] 
-:riot .............................. [32mSUCCESS[0m [  0.117 s] [ 27.920 s] 
-:riot-core ......................... [32mSUCCESS[0m [  0.011 s] [  5.280 s] 
+: .................................. [32mSUCCESS[0m [  0.199 s] [  0.000 s] 
+:guide ............................. [32mSUCCESS[0m [  0.045 s] [  0.000 s] 
+:riot .............................. [32mSUCCESS[0m [  0.128 s] [ 21.197 s] 
+:riot-core ......................... [32mSUCCESS[0m [  0.009 s] [  5.242 s] 
 --------------------------------------------------------------------
 4 projects executed
 --------------------------------------------------------------------
@@ -531,5 +1797,5 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 See https://docs.gradle.org/7.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 39s
-31 actionable tasks: 31 executed
+BUILD SUCCESSFUL in 32s
+31 actionable tasks: 29 executed, 2 up-to-date

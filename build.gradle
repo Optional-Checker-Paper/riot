@@ -158,19 +158,12 @@ subprojects { p ->
     	    '-AwarnUnneededSuppressions',
     	    '-AassumeAssertionsAreEnabled',
           '-AReportChecker_warns',
+          "-Xmaxwarns","99999",
            "-Astubs=${project.projectDir}/reportoptional.astub",
    	]
    	excludeTests = true
     }
 }
-
-afterEvaluate {
-     tasks.withType(JavaCompile) {
-         options.compilerArgs << "-Xmaxerrs" << "99999"
-         options.compilerArgs << "-Xmaxwarns" << "99999"
-     }
- }
-
 
 boolean hasTestsAt(File testDir) {
     testDir.exists() && testDir.listFiles()?.size()
